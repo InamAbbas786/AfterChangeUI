@@ -1,0 +1,19 @@
+/* This css file is to over write bootstrap css
+--------------------------------------------------------- /
+* Theme Name: DTHandesk
+* Theme URI: 
+* Author: Asif Ali
+* Author URI: 
+* Description:
+* Version: 1.0.1
+* Tags: html, themplate, DTHandesk
+--------------------------------------------------------- */
+
+@charset "UTF-8";
+
+/* @import "animation.css"; */
+
+@import "global.css";
+@import "navbar.css";
+@import "right_panel.css";
+@import "responsiv_media.css";

@@ -1,0 +1,578 @@
+/* Global Css Styles*/
+
+.social-box {
+    min-height: 160px;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background: #fff;
+}
+
+.social-box i {
+    display: block;
+    margin: -1px -1px 0;
+    font-size: 40px;
+    line-height: 90px;
+    background: #e9ecef;
+}
+
+.social-box .chart-wrapper {
+    height: 90px;
+    margin: -90px 0 0;
+}
+
+.social-box .chart-wrapper canvas {
+    width: 100% !important;
+    height: 90px !important;
+}
+
+.social-box ul {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.social-box ul li {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.social-box ul li:first-child {
+    border-right: 1px solid #c2cfd6;
+}
+
+.social-box ul li strong {
+    display: block;
+    font-size: 20px;
+}
+
+.social-box ul li span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #949CA0;
+    text-transform: uppercase;
+}
+
+.social-box.facebook i {
+    color: #fff;
+    background: #3b5998;
+}
+
+.social-box.twitter i {
+    color: #fff;
+    background: #00aced;
+}
+
+.social-box.linkedin i {
+    color: #fff;
+    background: #4875b4;
+}
+
+.social-box.google-plus i {
+    color: #fff;
+    background: #d34836;
+}
+
+.horizontal-bars {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.horizontal-bars li {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.horizontal-bars li .title {
+    width: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #868e96;
+    vertical-align: middle;
+}
+
+.horizontal-bars li .bars {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.horizontal-bars li .bars .progress:first-child {
+    margin-bottom: 2px;
+}
+
+.horizontal-bars li.legend {
+    text-align: center;
+}
+
+.horizontal-bars li.legend .badge {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+}
+
+.horizontal-bars li.divider {
+    height: 40px;
+}
+
+.horizontal-bars li.divider i {
+    margin: 0 !important;
+}
+
+.horizontal-bars.type-2 li {
+    overflow: hidden;
+}
+
+.horizontal-bars.type-2 li i {
+    display: inline-block;
+    margin-right: 16px;
+    margin-right: 1rem;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.horizontal-bars.type-2 li .title {
+    display: inline-block;
+    width: auto;
+    margin-top: -9px;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 40px;
+    color: #212529;
+}
+
+.horizontal-bars.type-2 li .value {
+    float: right;
+    font-weight: 600;
+}
+
+.horizontal-bars.type-2 li .bars {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    padding: 0;
+}
+
+.icons-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.icons-list li {
+    position: relative;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.icons-list li i {
+    display: block;
+    float: left;
+    width: 35px !important;
+    height: 35px !important;
+    margin: 2px;
+    line-height: 35px !important;
+    text-align: center;
+}
+
+.icons-list li .desc {
+    height: 40px;
+    margin-left: 50px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.icons-list li .desc .title {
+    padding: 2px 0 0;
+    margin: 0;
+}
+
+.icons-list li .desc small {
+    display: block;
+    margin-top: -4px;
+    color: #868e96;
+}
+
+.icons-list li .value {
+    position: absolute;
+    top: 2px;
+    right: 45px;
+    text-align: right;
+}
+
+.icons-list li .value strong {
+    display: block;
+    margin-top: -3px;
+}
+
+.icons-list li .actions {
+    position: absolute;
+    top: -4px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.icons-list li .actions i {
+    float: none;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+
+.icons-list li.divider {
+    height: 40px;
+}
+
+.icons-list li.divider i {
+    width: auto;
+    height: auto;
+    margin: 2px 0 0;
+    font-size: 18px;
+}
+
+.social {
+    color: #fff;
+}
+
+.social.btn-sm {
+    padding: 0 10px 0 0;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+
+.social.btn-lg {
+    border-radius: 0;
+}
+
+.social.btn {
+    border-radius: 0;
+}
+
+.social i {
+    width: 29px;
+    width: 1.8125rem;
+    line-height: 2;
+}
+
+.social.facebook {
+    background: #3b5998;
+}
+
+.social.facebook:hover {
+    background: #344e86;
+}
+
+.social.twitter {
+    background: #00aced;
+}
+
+.social.twitter:hover {
+    background: #0099d4;
+}
+
+.social.linkedin {
+    background: #4875b4;
+}
+
+.social.linkedin:hover {
+    background: #4169a2;
+}
+
+.social.flickr {
+    background: #ff0084;
+}
+
+.social.flickr:hover {
+    background: #e60077;
+}
+
+.social.tumblr {
+    background: #32506d;
+}
+
+.social.tumblr:hover {
+    background: #2a435c;
+}
+
+.social.xing {
+    background: #026466;
+}
+
+.social.xing:hover {
+    background: #024b4d;
+}
+
+.social.github {
+    background: #4183c4;
+}
+
+.social.github:hover {
+    background: #3876b4;
+}
+
+.social.html5 {
+    background: #e34f26;
+}
+
+.social.html5:hover {
+    background: #d4431b;
+}
+
+.social.openid {
+    background: #f78c40;
+}
+
+.social.openid:hover {
+    background: #f67d28;
+}
+
+.social.stack-overflow {
+    background: #fe7a15;
+}
+
+.social.stack-overflow:hover {
+    background: #f86c01;
+}
+
+.social.css3 {
+    background: #0170ba;
+}
+
+.social.css3:hover {
+    background: #0161a1;
+}
+
+.social.youtube {
+    background: #b00;
+}
+
+.social.youtube:hover {
+    background: #a20000;
+}
+
+.social.dribbble {
+    background: #ea4c89;
+}
+
+.social.dribbble:hover {
+    background: #e7357a;
+}
+
+.social.dropbox {
+    background: #007ee5;
+}
+
+.social.dropbox:hover {
+    background: #0070cc;
+}
+
+.social.google-plus {
+    background: #d34836;
+}
+
+.social.google-plus:hover {
+    background: #c43d2b;
+}
+
+.social.instagram {
+    background: #517fa4;
+}
+
+.social.instagram:hover {
+    background: #497293;
+}
+
+.social.pinterest {
+    background: #cb2027;
+}
+
+.social.pinterest:hover {
+    background: #b51d23;
+}
+
+.social.vk {
+    background: #45668e;
+}
+
+.social.vk:hover {
+    background: #3d5a7d;
+}
+
+.social.yahoo {
+    background: #400191;
+}
+
+.social.yahoo:hover {
+    background: #350178;
+}
+
+.social.behance {
+    background: #1769ff;
+}
+
+.social.behance:hover {
+    background: #0059fd;
+}
+
+.social.reddit {
+    background: #ff4500;
+}
+
+.social.reddit:hover {
+    background: #e63e00;
+}
+
+.social.spotify {
+    background: #7ab800;
+}
+
+.social.spotify:hover {
+    background: #699f00;
+}
+
+.social.vine {
+    background: #00bf8f;
+}
+
+.social.vine:hover {
+    background: #00a67c;
+}
+
+.social.foursquare {
+    background: #1073af;
+}
+
+.social.foursquare:hover {
+    background: #0e6498;
+}
+
+.social.vimeo {
+    background: #aad450;
+}
+
+.social.vimeo:hover {
+    background: #a0cf3c;
+}
+
+.bg-flat-color-1 {
+    background: #20a8d8;
+}
+
+.bg-flat-color-2 {
+    background: #63c2de;
+}
+
+.bg-flat-color-3 {
+    background: #ffc107;
+}
+
+.bg-flat-color-4 {
+    background: #f86c6b;
+}
+
+.bg-flat-color-5 {
+    background: #4dbd74;
+}
+
+.transition {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+body {
+    background: #eef1fa;
+    display: table;
+    font-family: 'Open Sans' sans-serif !important;
+    font-size: 15px !important;
+    width: 100%;
+}
+
+div[class*="col-"] {
+    float: left;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #878787;
+}
+
+p:focus {
+    border: none;
+    outline: 0;
+}
+
+a,
+button {
+    text-decoration: none;
+    outline: none !important;
+    color: #878787;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: 21px;
+}
+
+ol,
+ul {
+    padding-left: 0;
+}
+
+.btn:focus,
+button:focus {
+    box-shadow: none !important;
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn,
+button,
+input,
+textarea {
+    box-shadow: none;
+    outline: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+
+/* Global Styles */
+
+
+/* Main Styles */
