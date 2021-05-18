@@ -60,31 +60,34 @@
                     </li>
 
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle show" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> <i class="menu-icon ti-bar-chart"></i>Tickets</a>
+                        <a href="#" class="dropdown-toggle show" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> <i class="menu-icon fa fa-ticket"></i>Tickets</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><a href="#">Open</a></li>
-                            <li> <a href="#">Unassigned</a></li>
-                            <li><a href="#">Solved</a></li>
-                            <li><a href="#">Closed</a></li>
-                            <li><a href="#">Recently Updated</a></li>
-                            <li><a href="#">My Tickets</a></li>
+                            <li> <i class="fa fa-envelope-open-o"></i> <a href="#">Open</a></li>
+                            <li> <i class="fa ti-target"></i><a href="#">Unassigned</a></li>
+                            <li><i class="fa fa-envelope-open"></i><a href="#">Solved</a></li>
+                            <li><i class="fa fa-times-rectangle-o"></i><a href="#">Closed</a></li>
+                            <li><i class="fa fa-history"></i><a href="#">Recently Updated</a></li>
+                            <li><i class="fa fa-sitemap"></i><a href="#">Assigned to me</a></li>
 
                         </ul>
                     </li>
                     <li>
-                        <a href="#"> <i class="menu-icon ti-stats-up"></i>Reports</a>
-                        <ul class="sub-menu children dropdown-menu">
+                        <a href="#"> <i class="menu-icon ti-user"></i>Leads</a>
 
-                        </ul>
                     </li>
+                    <li>
+                        <a href="#"> <i class="menu-icon fa fa-filter"></i>Feature Requests</a>
+
+                    </li>
+
                     <li class="menu-item-has-children dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Administrations</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon ti-book"></i>Administrations</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><a href="#">Team</a></li>
-                            <li> <a href="#">FAQ</a></li>
-                            <li><a href="#">Agent</a></li>
-                            <li><a href="#">Signature</a></li>
-                            <li><a href="#">Setting</a></li>
+                            <li><a href="#"><i class="fa fa-users"></i> Team</a></li>
+                            <li> <a href="#"><i class="ti-list"></i>FAQ</a></li>
+                            <li><a href="#"><i class="ti-headphone-alt"></i>Agent</a></li>
+                            <li><a href="#"><i class="ti-layout-tab-min"></i>Signature</a></li>
+                            <li><a href="#"><i class="fa fa-gear"></i>Setting</a></li>
 
                         </ul>
                     </li>
@@ -114,7 +117,7 @@
 
             <div class="header-menu">
 
-                <div class="col-sm-9">
+                <div class="col-sm-10">
                     <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-align-left"></i></a>
 
                     <div class="header-left">
@@ -300,7 +303,7 @@
                                 <!-- half -->
                                 <div class="col-md-7">
                                     <div class="row form-group">
-                                        <div class="col col-md-3"><label for="text-input" class=" form-control-label">Logo</label></div>
+                                        <div class="col col-md-3"><label for="text-input" class=" form-control-label"><strong>Logo</strong></label></div>
                                         <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Upload form a URL" class="form-control"></div>
                                     </div>
                                 </div>
@@ -312,7 +315,7 @@
                                 </div>
                                 <div class="col-md-7">
                                     <div class="row form-group">
-                                        <div class="col col-md-3"><label for="text-input" class=" form-control-label">Favicon</label></div>
+                                        <div class="col col-md-3"><label for="text-input" class=" form-control-label"><strong>Favicon</strong></label></div>
                                         <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Upload form a URL" class="form-control"></div>
                                     </div>
                                 </div>
@@ -323,7 +326,10 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-2"><strong>Display Colors</strong></div>
+                                <div class="col-md-2"><strong>Display Colors</strong>
+                                    <br>
+                                    <a class="btn btn-default bg-light mt-4 " style="font-size: 12px;">Revert to Default</a>
+                                </div>
 
                                 <div class="col-md-5">
                                     <div class="row">
@@ -521,14 +527,8 @@
 
                             <!-- ----------------- -->
 
-                            <!-- <div id="demo">
-                                <h1>Bootstrap Colorpicker Demo (without Bootstrap)</h1>
-                                <input type="text" value="#38a677" />
-                            </div> -->
-                            <!-- ==================== -->
-                            <hr>
                             <div class="row">
-                                <div class="col-md-12 text-right">
+                                <div class="col-md-12 text-right mt-4 mb-4">
                                     <button type="submit" class="btn btn-default mr-2 btn-sm ">
         Cancel
     </button>

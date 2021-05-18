@@ -1,0 +1,194 @@
+@media (max-width: 1368px) {
+    .content {
+        padding: 0 15px;
+    }
+    .twt-category {
+        margin-bottom: 0;
+    }
+    .twt-feed {
+        max-height: 155px;
+    }
+    .twt-feed img {
+        height: 75px;
+        width: 75px;
+    }
+    .stat-widget-one .stat-content {
+        margin-left: 15px;
+        width: 52%;
+    }
+    .theme-bg {
+        background: #eef1fa !important;
+    }
+    .navbar-badge {
+        font-size: .6rem;
+        font-weight: 300;
+        padding: 2px 4px;
+        position: absolute;
+        right: 5px;
+        top: 9px;
+    }
+}
+
+@media (max-width: 1024px) {
+    aside.left-panel {
+        padding: 0 30px 0 0;
+        width: 225px;
+    }
+    .navbar .navbar-nav li>a .menu-icon {
+        /* width: 30px; */
+    }
+    .navbar .navbar-nav li.menu-item-has-children .sub-menu {
+        padding: 0 0 0 52px;
+    }
+    .navbar .navbar-nav li.menu-item-has-children .sub-menu a {
+        padding: 2px 0 2px 25px;
+    }
+    .card .card-header {
+        position: relative;
+    }
+    .card .card-header strong {
+        display: block;
+    }
+    .card .card-header small {
+        float: left;
+    }
+    .card .card-header .card-actions {
+        right: 0;
+        top: 0.75rem;
+        position: absolute;
+    }
+}
+
+@media (max-width: 992px) {
+    [class*="col"].no-padding {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+}
+
+@media (max-width: 575.99px) {
+    body {
+        display: block;
+    }
+    aside.left-panel {
+        display: block;
+        height: auto;
+        min-height: inherit;
+        padding: 0 15px;
+        width: 100%;
+    }
+    aside.left-panel .navbar {
+        margin-bottom: 0;
+    }
+    aside.left-panel .navbar .navbar-header {
+        height: 50px;
+    }
+    aside.left-panel .navbar .navbar-brand {
+        border-bottom: none;
+        display: inline-block;
+        float: left;
+        line-height: 1;
+        margin-top: 11px;
+        min-height: inherit;
+    }
+    aside.left-panel .navbar .navbar-brand.hidden {
+        display: none;
+    }
+    aside.left-panel .navbar .navbar-toggler {
+        float: right;
+        margin-top: 8px;
+    }
+    aside.left-panel .navbar .navbar-nav li>a {
+        padding: 5px 0;
+    }
+    aside.left-panel .navbar .navbar-nav li.menu-item-has-children a:before {
+        top: 5px;
+    }
+    aside.left-panel .navbar .menu-title {
+        line-height: 30px;
+        padding: 0;
+    }
+    .menutoggle {
+        display: none;
+    }
+    .right-panel {
+        display: block;
+    }
+    .right-panel header.header {
+        padding: 5px 10px 1px 5px;
+    }
+    .right-panel header.header div[class*="col"] {
+        padding: 0;
+        width: initial;
+    }
+    .right-panel header.header .col-sm-7 {
+        float: left;
+    }
+    .right-panel header.header .col-sm-5 {
+        float: right;
+    }
+    .right-panel .breadcrumbs {
+        padding: 10px 15px;
+    }
+    .right-panel .breadcrumbs div[class*="col"] {
+        padding: 0;
+    }
+    .right-panel .breadcrumbs .page-header {
+        min-height: inherit;
+        padding: 0;
+    }
+    .right-panel .breadcrumbs .page-header h1 {
+        padding: 5px 0;
+    }
+    .right-panel .breadcrumbs .page-header.float-right {
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+    .right-panel .breadcrumbs .page-header.float-right .breadcrumb {
+        padding: 0;
+    }
+    .right-panel .content {
+        padding: 0 10px;
+    }
+    .right-panel .content .card .card-title {
+        margin-bottom: 0;
+    }
+    .right-panel .content .card .card-footer {
+        padding: 15px 5px;
+    }
+    .right-panel .content .card .card-footer ul {
+        margin: 0;
+    }
+    .right-panel .content .card .card-footer ul li {
+        float: left;
+        margin: 5px 0;
+        padding: 0 10px;
+        width: 33.33%;
+    }
+    .right-panel .content div[class*="col"] {
+        padding: 0;
+    }
+    .right-panel .content .row div[class*="col"] {
+        padding: 0 10px;
+    }
+    .right-panel .content .nav-pills .nav-link,
+    .right-panel .content .nav-tabs .nav-link {
+        padding: 0.5rem;
+    }
+    .right-panel .content .tab-content.pl-3 {
+        padding-left: 0 !important;
+    }
+    .right-panel .content #bootstrap-data-table_wrapper {
+        font-size: 14px;
+        padding: 0;
+    }
+    .right-panel .content #bootstrap-data-table_wrapper div[class*="col"] {
+        padding: 0;
+    }
+    .right-panel .content #bootstrap-data-table_wrapper .table td,
+    .right-panel .content #bootstrap-data-table_wrapper .table th {
+        padding: 5px;
+    }
+}
